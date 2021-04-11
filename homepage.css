@@ -1,0 +1,46 @@
+@font-face{
+  font-family: Arial, Helvetica, sans-serif;
+  color:black;
+  src: url('/stc/third-party/Coiny-Regular.ttf');
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 50px;
+  text-align: center;
+}
+
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 15px;
+  font-weight: normal;
+  text-align: justify;
+}
+
+h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 15px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.header {
+  padding-top: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+}

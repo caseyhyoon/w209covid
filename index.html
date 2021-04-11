@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<script src="project1.js"></script>
+
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="homepage.css">
+    <title>Covid Project</title>
+</head>
+
+<body>
+
+    <div class = "header">
+        <h1>Covid Cases and Vaccinations Visualizations</h1>
+        <h2>W209 Final Project</h2>
+
+        <h3>About This Project</h3>
+        <h4> Welcome to our COVID-19 resources page for the United States. In the face of this unprecedented pandemic, we are hoping that our website can provide more information about the spread of the virus as well as the vaccination process. Our team will be using the Coronavirus case data provided by John Hopkins University as well as Gabriel Preda’s Kaggle dataset, collected and merged from Our World in Data, to visualize vaccination rates by country. For more information, please visit our Data Sources section.</h4>
+
+        <h3>Explore with Tableau/Helpful Tips</h3>
+        
+        <details style='display:flex; flex-direction:row; justify-content:center; align-items:center; text-align:center;'>
+            <summary>Click here to view tips</summary>
+            <p>
+                <h4>
+                    Use the dashboards to learn more about cases in the US<br>
+                    <ul>
+                        <li>Use dropdown menus for filtering data by either Date or State<br>
+                            <img src='tableau filter.png'></img>
+                        </li>
+                        <li>Sliders can be used to visualize data throughout time<br>
+                            <img src='tableau slider.png'></img>
+                        </li>
+                        <li>All graphs are interactive, hover to see detailed labels<br>
+                            <img src='tableau hover.png'></img>
+                        </li>
+                    </ul>
+                </h4>
+            </p>
+        </details>
+        
+
+        <h3>COVID-19 Data Visualizations</h3>
+
+    </div>
+
+    <div class="row" style="display:flex; flex-direction:row; justify-content:center; align-items:center;
+        width:500px; margin-left:auto; margin-right:auto;
+        text-align:center;">
+            <div class = "tooltip">
+                <a href = "barchartrace.html">
+                    <img src='icons/globe.png'>
+                    <h3>Top Global Cases by Country</h3>
+                </a>
+            </div>
+            <!--
+                <div class='tableauPlaceholder' id='viz1618046223932' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gl&#47;GlobalBarChartRace3&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='GlobalBarChartRace3&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gl&#47;GlobalBarChartRace3&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /><param name='filter' value='publish=yes' /></object>
+                    <h2>Global Cases Bar Chart Race</h2>
+                </div>
+                <script type='text/javascript'>
+                    var divElement = document.getElementById('viz1618046223932');
+                    var vizElement = divElement.getElementsByTagName('object')[0];
+                    if ( divElement.offsetWidth > 800 ) {
+                        vizElement.style.width='1000px';
+                        vizElement.style.height='827px';
+                    } else if ( divElement.offsetWidth > 500 ) {
+                        vizElement.style.width='1000px';
+                        vizElement.style.height='827px';
+                    } else {
+                        vizElement.style.width='100%';
+                        vizElement.style.height='727px';
+                    }
+                    var scriptElement = document.createElement('script');
+                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                </script>
+            -->
+        
+            
+            <!--<h2>Total number of US Cases & Deaths</h2>-->
+
+            <div class = "tooltip">
+                <a href = "lineplots.html">
+                    <img src='icons/lineplot.png'>
+                    <h3>Total number of US Cases & Deaths Lineplot</h3>
+                </a>
+            </div>
+
+            <!--
+                <div class='tableauPlaceholder' id='viz1618074800022' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COVID-19LinePlot&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='COVID-19LinePlot&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COVID-19LinePlot&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /><param name='filter' value='publish=yes' /></object>
+                </div>
+                <script type='text/javascript'>
+                    var divElement = document.getElementById('viz1618074800022');
+                    var vizElement = divElement.getElementsByTagName('object')[0];
+                    if ( divElement.offsetWidth > 800 ) { 
+                        vizElement.style.width='1000px';
+                        vizElement.style.height='827px';
+                    } else if ( divElement.offsetWidth > 500 ) {
+                        vizElement.style.width='1000px';
+                        vizElement.style.height='827px';
+                    } else {
+                        vizElement.style.width='100%';
+                        vizElement.style.height='727px';
+                    }
+                    var scriptElement = document.createElement('script');
+                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                </script>
+            -->
+        
+            <div class = "tooltip">
+                <a href = "total_cases_deaths.html">
+                    <img src='icons/us_map.png'>
+                    <h3>Total US Confirmed Cases/Deaths by State Map</h3>
+                </a>
+            </div>
+            <!--
+                <div class='tableauPlaceholder' id='viz1618019756823' style='position: relative'><noscript><a href='#''><img alt='Story 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;To&#47;TotalCasesandDeaths_16179996328480&#47;Story1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='TotalCasesandDeaths_16179996328480&#47;Story1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;To&#47;TotalCasesandDeaths_16179996328480&#47;Story1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /><param name='filter' value='publish=yes' /></object>
+                    <h2>Total US Confirmed Cases/Deaths by State</h2>
+                </div>
+                <script type='text/javascript'> 
+                    var divElement = document.getElementById('viz1618019756823');  
+                    var vizElement = divElement.getElementsByTagName('object')[0]; 
+                    vizElement.style.width='1016px';vizElement.style.height='991px';
+                    var scriptElement = document.createElement('script');
+                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                    vizElement.parentNode.insertBefore(scriptElement, vizElement);    
+                </script>
+            -->
+            
+    </div>
+
+    <div class="row" style="display:flex; flex-direction:row;
+        width:350px; margin-left:auto; margin-right:auto;
+        text-align:left;">
+
+        <div class = "tooltip">
+            <a href = "new_US_confirmed_cases.html">
+                <img src='icons/calendar.png'>
+                <h3>New US Confirmed Cases</h3>
+            </a>
+        </div>
+        <!--
+            <div class='tableauPlaceholder' id='viz1618047120495' style='position: relative'><noscript><a href='#'><img alt='New Reported US Covid Cases ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ne&#47;NewReportedUSCovidCases&#47;Story1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='NewReportedUSCovidCases&#47;Story1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ne&#47;NewReportedUSCovidCases&#47;Story1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object>
+                <h2>New US Confirmed Cases</h2>
+            </div>
+            <script type='text/javascript'>
+                var divElement = document.getElementById('viz1618047120495');
+                var vizElement = divElement.getElementsByTagName('object')[0];
+                vizElement.style.width='1100px';vizElement.style.height='1027px';
+                var scriptElement = document.createElement('script');
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);
+            </script>
+        -->
+
+
+        <div class = "tooltip">
+            <a href = "US_vaccinations.html">
+                <img src='icons/vaccination.png'>
+                <h3>US Vaccinations</h3>
+            </a>
+        </div>
+        <!--
+            <div class='tableauPlaceholder' id='viz1615166294180' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Va&#47;Vaccines_16149688064990&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Vaccines_16149688064990&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Va&#47;Vaccines_16149688064990&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /><param name='filter' value='publish=yes' /></object>
+                    <h2>US Vaccinations</h2>
+                </div>
+                <script type='text/javascript'>
+                    var divElement = document.getElementById('viz1615166294180');  
+                    var vizElement = divElement.getElementsByTagName('object')[0];
+                    if ( divElement.offsetWidth > 800 ) {
+                        vizElement.style.width='1000px';
+                        vizElement.style.height='627px';
+                    } else if ( divElement.offsetWidth > 500 ) {
+                        vizElement.style.width='1000px';
+                        vizElement.style.height='627px';
+                    } else {
+                        vizElement.style.width='100%';
+                        vizElement.style.height='877px';
+                    }
+                    var scriptElement = document.createElement('script');
+                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                </script>
+        -->
+
+    </div>
+
+    <h3>Contributors</h3>
+    <h5>Irene Ju, Ken Opamuratawongse, Zhengfan Pan, Candice Sener, Casey Yoon</h5>
+
+    <h3>Data Sources</h3>
+    <div class="columns" style="display:flex; flex-direction:row; justify-content:center; align-items:center;
+        width:500px; margin-left:auto; margin-right:auto;
+        text-align:left; font:Arial;">
+        
+        <div class="tooltip">
+            <a href=https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data>
+                <h3>John Hopkins Daily Case Reports</h3>
+            </a>
+        </div>
+    
+        <div class="tooltip">
+            <a href=https://www.kaggle.com/gpreda/covid-world-vaccination-progress>
+                <h3>Kaggle Vaccination Progress</h3>
+            </a>
+        </div>
+    
+    
+    </div>
+
+
+    
+</body>
+</html>
+
